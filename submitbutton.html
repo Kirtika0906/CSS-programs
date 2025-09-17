@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Button Animation</title>
+  <style>
+    .submit {
+      cursor: pointer;
+      position: relative;
+      padding: 10px 20px;
+      font-size: 36px;
+      width: 250px;
+      border-radius: 4px;
+      background: transparent;
+      color: rgb(246, 251, 252);
+      border: 2px solid rgb(92, 204, 245);
+      transition: width 0.5s;
+    }
+
+    .submit:hover {
+      width: 300px;
+      background: white;
+      color: black;
+    }
+
+    body {
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <input type="submit" value="Submit" class="submit">
+  </form>
+</body>
+</html>
